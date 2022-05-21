@@ -1,0 +1,43 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.0",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "LifeSim",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "Bridge",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "RigLogic",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkControlRig",
+			"Enabled": true
+		}
+	]
+}
